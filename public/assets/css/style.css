@@ -1,0 +1,65 @@
+
+.card {
+    font-family:  Tahoma,sans-serif;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 10px hsla(0, 0%, 33%, 0.739);
+    border: 3px solid rgba(0, 0%, 33%, 0.739);
+    transition: 0.4s all ease;
+    padding: 10px;
+    margin: 14px;
+    text-align: center;
+    max-width: 260px;
+    display: inline-block;
+}
+.card:hover{
+    transform: scale(103%);
+    box-shadow: 5px 5px 10px hsl(0, 0%, 33%);
+    z-index: inherit;
+    cursor: pointer;
+}
+.image {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+}
+
+.image img {
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.card h2{
+    padding-left: 10px;
+    font-size: 23px;
+    color: hsla(0, 0%, 22%, 0.907);
+}
+.card p{
+    margin: 10px;
+    font-size: 15px;
+    text-align: justify;
+    border-color:  rgb(94, 255, 140);
+    color: hsl(0, 0%, 31%);
+}
+
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+.btns .btn{
+    cursor: pointer;
+    padding: 2px;
+    margin: 2px;
+    border: 1px solid rgba(206, 206, 206, 0.399);
+    background-color: rgba(169, 255, 219, 0.249);
+}
