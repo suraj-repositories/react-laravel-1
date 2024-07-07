@@ -53,7 +53,7 @@ export default defineConfig({
 });
 ```
 - resources\views\welcome.blade.php
-```php
+```html
 <body>
     <div id="app"></div>
     @viteReactRefresh
